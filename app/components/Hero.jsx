@@ -4,7 +4,7 @@ import { FaArrowTrendUp } from "react-icons/fa6";
 
 const Hero = () => {
   return (
-    <div className="pb-10">
+    <div className="pb-10 md:px-10 lg:px-20">
       <main className="py-10">
         <p className="text-4xl text-center font-bold  font-sans">
           Trade Smarter, Not Harder
@@ -17,14 +17,9 @@ const Hero = () => {
         </button>
       </main>
       <div className="py-20 ">
-        <div
-          className="grid md:grid-cols-2 gap-10
-         items-center pb-20"
-        >
+        <div className="grid md:grid-cols-2 gap-10 items-center pb-20 overflow-hidden">
           <div className="mx-auto pl-2">
-            <h2 className="text-4xl font-bold whitespace-nowrap mb-8">
-              Advanced Trading Tools
-            </h2>
+            <h2 className="text-4xl font-bold  mb-8">Advanced Trading Tools</h2>
             <ul className="space-y-6 ">
               {[
                 "Real-time Market Data",
@@ -40,13 +35,13 @@ const Hero = () => {
               ))}
             </ul>
           </div>
-          <div className="bg-gray-800 p-8 rounded-2xl shadow-2xl transform hover:scale-105 transition-transform duration-300 relative overflow-hidden group">
+          <div className="bg-gray-800 p-8 rounded-2xl shadow-2xl transform hover:scale-105 transition-transform duration-300 relative overflow-hidden group ">
             <img
-              className="w-full rounded-xl"
+              className="w-full rounded-xl "
               src="pic1.webp"
               alt="trading-images"
-            />{" "}
-            <div className="absolute inset-0 bg-blue-600 opacity-0 group-hover:opacity-20 transition-opacity duration-300" />
+            />
+            <div className="absolute inset-0 bg-blue-600 opacity-0 group-hover:opacity-20 transition-opacity duration-300 " />
           </div>
         </div>
 
@@ -62,7 +57,7 @@ const Hero = () => {
             />{" "}
             <div className="absolute inset-0 bg-blue-600 opacity-0 group-hover:opacity-20 transition-opacity duration-300" />
           </div>
-          <div className="mx-auto pr-2">
+          <div className="mx-auto px-10">
             <h2 className="text-4xl font-bold  mb-8">
               Marketing Alanlysis at Your Fingertips
             </h2>

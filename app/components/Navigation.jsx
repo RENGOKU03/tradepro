@@ -7,7 +7,7 @@ const Navigation = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(true);
   return (
     <>
-      <div className="bg-gray-800 flex md:justify-around justify-between px-5 items-center text-white">
+      <div className="bg-gray-800 flex md:justify-around justify-between items-center text-white md:px-10 lg:px-20">
         <header className="font-sans text-blue-500 font-bold text-2xl pl-4 py-5 cursor-pointer ">
           TradePro
         </header>
